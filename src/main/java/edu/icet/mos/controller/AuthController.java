@@ -43,7 +43,7 @@ public class AuthController {
         return user == null
                 ? ResponseEntity.badRequest().body(
                 List.of(
-                        Map.of("message", "user already exist !")
+                        Map.of("message", "user already exist oiii !")
                 ))
                 : ResponseEntity.status(HttpStatus.CREATED).body(user);
     }
