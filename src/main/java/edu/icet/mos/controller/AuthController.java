@@ -28,6 +28,7 @@ import java.util.Map;
 @RequestMapping("/api/auth")
 @RequiredArgsConstructor
 @Slf4j
+//hello this is comment by me
 public class AuthController {
     private final UserRegistrationService userRegistrationService;
     private final UserRepository userRepository;
