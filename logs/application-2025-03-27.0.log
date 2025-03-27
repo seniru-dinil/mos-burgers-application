@@ -1,0 +1,8 @@
+s2025-03-27 21:06:38 [http-nio-8080-exec-2] INFO  e.i.m.c.RequestResponseLoggingFilter - Request Info: GET /api/customer/list
+2025-03-27 21:06:38 [http-nio-8080-exec-2] INFO  e.i.m.c.RequestResponseLoggingFilter - Request Headers: authorization=Basic c2VuaXJ1ZGluaWw5MjdAZ21haWwuY29tOjEyMzQ1Ng==, user-agent=PostmanRuntime/7.43.2, accept=*/*, postman-token=5d7476e3-5542-4009-b057-44b3bc2ed753, host=localhost:8080, accept-encoding=gzip, deflate, br, connection=keep-alive, cookie=JSESSIONID=9F97C61E3B0A31B3696338AF93577E35
+2025-03-27 21:06:38 [http-nio-8080-exec-2] INFO  e.i.m.c.RequestResponseLoggingFilter - Response Body: [{"id":1,"firstName":"shehan","lastName":"mihiranga","email":"shehan@gmail.com","address":"galle"},{"id":2,"firstName":"sahan","lastName":"chamara","email":"sahan@gmail.com","address":"kandy"},{"id":3,"firstName":"sandali","lastName":"gunarathne","email":"sandali@gmail.com","address":"nugegoda"},{"id":4,"firstName":"sandali","lastName":"gunarathne","email":"sandali@gmail.com","address":"nugegoda"}]
+2025-03-27 21:32:16 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-03-27 21:32:16 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-03-27 21:32:16 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-03-27 21:32:17 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-03-27 21:32:17 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.

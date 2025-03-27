@@ -1,0 +1,33 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/mos_db?createDatabaseIfNotExist=true
+    username: root
+    password: 1234
+  jpa:
+    hibernate:
+      ddl-auto: update
+
+  security:
+    token:
+      key: 3cfa76ef14937c1c0ea519f8fc057a80fcd04a7420f8e8bcd0a7567c272e007b
+      expire:
+        time: 2268000000
+    admin:
+      token:
+        expire:
+          time: 86400000
+
+
+
+application:
+  support:
+    user:
+      list: senirudinil927@gmail.com,senirudinil11@gmail.com
+
+
+
+logging:
+  level:
+    org:
+      springframework: INFO
+
